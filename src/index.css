@@ -1,0 +1,36 @@
+.image-div{
+    text-align: center;
+}
+.details-div{
+    text-align: center;
+    font-size: 16px;
+}
+#imageFront, #imageBack{
+    cursor: pointer;
+    height:400px;
+    width: 400px;
+}
+#pokemonDiv{
+    padding: 10px;
+}
+.search-div{
+    padding: 50px;
+}
+.add-div{
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.carousel-div{
+    text-align: center;
+    width: 90%;
+    background-color: burlywood;
+}
+.carousel-span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-name-span, .carousel-img{
+    text-align: center ;
+}
