@@ -8,8 +8,11 @@
     <body>
         <div class="search-div">
             <div>
-                <input id="search" name="search" value="pikachu" placeholder="Enter search text "></input>
+                <input id="search" name="search" value="" placeholder="Enter search text "></input>
                 <button id="searchButton">Search</button>
+            </div>
+            <div class="error-div">
+                Error retreivng details. Please try again
             </div>
             <div id="pokemonDiv" >
                 <div class="image-div">
@@ -33,8 +36,9 @@
             <div class="carousel-div">
                 
                 <span class="carousel-span" id="span-template" onclick="loadPokemon(event)">
-                    <img id="templateImage" class="carousel-img" src=""/>
-                    <span class="carousel-name-span"></span>
+                    
+                    <img id="templateImage" class="carousel-img" src="" title=""/>
+                    <span class="template-remove" onclick="removePokemon(event)">&times;</span>
                 </span>
                 
             </div>
