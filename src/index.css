@@ -25,12 +25,28 @@
     text-align: center;
     width: 90%;
     background-color: burlywood;
+    padding: 10px;
 }
 .carousel-span{
     padding: 10px;
     cursor: pointer;
+    position: relative;
 }
 
-.carousel-name-span, .carousel-img{
-    text-align: center ;
+.carousel-span img{
+    border: 1px solid;
+    border-color: bisque;
+}
+
+.carousel-span .remove{
+    position: absolute;
+    top: -80px;
+    right: 10px;
+    z-index: 100;
+}
+
+.error-div{
+    padding: 30px;
+    text-align: center;
+    color: red;
 }
